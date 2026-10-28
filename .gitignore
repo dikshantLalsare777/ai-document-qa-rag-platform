@@ -1,0 +1,36 @@
+node_modules/
+**/node_modules/
+dist/
+build/
+coverage/
+.venv*/
+.env
+.env.*
+!.env.example
+uploads/
+**/uploads/
+chroma-data/
+mongodb-data/
+# Local database files and dumps
+*.sqlite
+*.sqlite3
+*.db
+*.bson
+*.wt
+*.journal
+# Private keys and local deployment credentials
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+**/secrets/
+credentials/
+**/credentials/
+.vercel/
+.render/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
